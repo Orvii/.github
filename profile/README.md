@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="hero.svg">
-  <img alt="Orvii — Open Research, Vision, Innovation and Ideas — an independent two-person research collective" src="hero.svg">
+  <img alt="Orvii — Open, Research, Vision, Innovation and Ideas — an independent two-person research collective" src="hero.svg">
 </picture>
 
 # Orvii

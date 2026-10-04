@@ -2,6 +2,12 @@
 
 All notable changes to this repository. Append-only; newest first.
 
+## [2026-10-05] - Profile wording aligned with approved org bio
+
+### Modified
+- `profile/hero.svg` — one-liner now reads "Building useful, experimental and open-source software together — in public, with receipts." (matches the org bio exactly); hero `aria-label` and README `img alt` use the comma form of the acronym.
+- Remote: `Orvii/.github` created, default branch `main` (master deleted).
+
 ## [2026-10-05] - Orvii org profile: brand datasheet + comprehensive README
 
 ### Added
