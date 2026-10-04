@@ -90,8 +90,8 @@
   <text class="o-tag" x="56" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" letter-spacing="3.2" fill="#FEAF12">OPEN · RESEARCH · VISION · INNOVATION · IDEAS</text>
 
   <!-- one-liner -->
-  <text class="o-tag" x="56" y="308" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16.5" letter-spacing="0.4" fill="#b7a496">Two developers building useful, experimental and</text>
-  <text class="o-tag" x="56" y="334" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16.5" letter-spacing="0.4" fill="#b7a496">open-source software — in public, with receipts.</text>
+  <text class="o-tag" x="56" y="308" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16.5" letter-spacing="0.4" fill="#b7a496">Building useful, experimental and open-source software</text>
+  <text class="o-tag" x="56" y="334" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16.5" letter-spacing="0.4" fill="#b7a496">together — in public, with receipts.</text>
 
   <!-- bottom readout -->
   <rect class="o-rule" x="56" y="360" width="1088" height="1" fill="#241a10" style="transform-origin:56px 360px;animation-delay:.5s"/>
