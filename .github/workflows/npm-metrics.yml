@@ -1,0 +1,24 @@
+name: npm-metrics
+
+on:
+  schedule:
+    # 3rd of each month, 09:17 UTC
+    - cron: "17 9 3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: append monthly snapshot
+        run: ./scripts/npm-metrics.sh
+      - name: commit if changed
+        run: |
+          git config user.name "orvii-bot"
+          git config user.email "bot@orvii.local"
+          git add metrics/npm-downloads.md
+          git diff --cached --quiet || { git commit -m "chore(metrics): monthly npm snapshot"; git push; }
