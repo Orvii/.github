@@ -56,6 +56,8 @@ Everything we measure with is itself a deliverable. Harnesses, log schemas and a
 | [harness-atlas](https://github.com/Orvii/harness-atlas) | What AI coding harnesses promise and support — capability matrix with pinned versions and a fetched-doc citation on every cell |
 | [svg-instruments](https://github.com/Orvii/svg-instruments) | Animated SVG patterns that survive the GitHub sanitizer, with copy-paste kits and degradation notes |
 | [bench-notes](https://github.com/Orvii/bench-notes) | Benchmark methodology notes: one failure mode per note, each with a failure example and the case where the advice inverts |
+| [retractions](https://github.com/Orvii/retractions) | A public log of things we believed, published, and later disproved — corrections as first-class output |
+| [equivalence-notes](https://github.com/Orvii/equivalence-notes) | Behavioral-equivalence testing methodology: scenario inventories, differential oracles, observability boundaries |
 
 ## The research agenda
 
