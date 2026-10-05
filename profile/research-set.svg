@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="The Orvii research set: seven public repos connected by shared methodology">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="The Orvii research set: eight public repos connected by shared methodology">
   <style>
     .edge { animation: flow 3s linear infinite; }
     .node { animation: pulse 4s ease-in-out infinite; }
@@ -10,55 +10,66 @@
   <rect width="1200" height="320" fill="#0b0806"/>
   <text x="60" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="3" fill="#8a7a6a">THE RESEARCH SET</text>
 
-  <!-- edges: shared methodology flows -->
+  <!-- edges: shared methodology flows (row chains + vertical lattice ties) -->
   <g class="edge" stroke="#5c4c3f" stroke-width="1.5" stroke-dasharray="6 6" fill="none">
-    <path d="M230 120 C 320 95, 400 95, 480 120"/>
-    <path d="M640 120 C 720 95, 800 95, 880 120"/>
-    <path d="M230 150 C 320 175, 400 175, 480 150"/>
-    <path d="M640 150 C 720 175, 800 175, 880 150"/>
-    <path d="M300 170 C 330 210, 350 230, 380 245"/>
-    <path d="M560 170 L 560 240"/>
-    <path d="M800 170 C 780 210, 760 230, 740 245"/>
+    <!-- row 1 chains -->
+    <path d="M260 128 L335 128"/>
+    <path d="M545 128 L620 128"/>
+    <path d="M830 128 L905 128"/>
+    <!-- row 2 chains -->
+    <path d="M260 268 L335 268"/>
+    <path d="M545 268 L620 268"/>
+    <path d="M830 268 L905 268"/>
+    <!-- vertical ties between rows, at node centers -->
+    <path d="M155 156 L155 240"/>
+    <path d="M440 156 L440 240"/>
+    <path d="M725 156 L725 240"/>
+    <path d="M1010 156 L1010 240"/>
   </g>
 
-  <!-- row 1: measurement + evidence -->
   <g font-family="ui-monospace, Menlo, monospace" text-anchor="middle">
+    <!-- row 1: evidence + measurement -->
     <g class="node">
-      <rect x="70" y="100" width="160" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
-      <text x="150" y="124" font-size="14" fill="#F8F5F2">harness-atlas</text>
-      <text x="150" y="142" font-size="10.5" fill="#b7a496">capability evidence</text>
+      <rect x="50" y="100" width="210" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
+      <text x="155" y="124" font-size="14" fill="#F8F5F2">harness-atlas</text>
+      <text x="155" y="142" font-size="10.5" fill="#b7a496">capability evidence</text>
     </g>
     <g class="node" style="animation-delay:.4s">
-      <rect x="480" y="100" width="160" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
-      <text x="560" y="124" font-size="14" fill="#F8F5F2">convention-map</text>
-      <text x="560" y="142" font-size="10.5" fill="#b7a496">interop surface</text>
+      <rect x="335" y="100" width="210" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
+      <text x="440" y="124" font-size="14" fill="#F8F5F2">convention-map</text>
+      <text x="440" y="142" font-size="10.5" fill="#b7a496">interop surface</text>
     </g>
     <g class="node" style="animation-delay:.8s">
-      <rect x="880" y="100" width="190" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
-      <text x="975" y="124" font-size="14" fill="#F8F5F2">provider-reliability</text>
-      <text x="975" y="142" font-size="10.5" fill="#b7a496">wire-level method</text>
+      <rect x="620" y="100" width="210" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
+      <text x="725" y="124" font-size="13" fill="#F8F5F2">context-file-evidence</text>
+      <text x="725" y="142" font-size="10.5" fill="#b7a496">does it help? the grid</text>
+    </g>
+    <g class="node" style="animation-delay:1.2s">
+      <rect x="905" y="100" width="210" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
+      <text x="1010" y="124" font-size="14" fill="#F8F5F2">provider-reliability</text>
+      <text x="1010" y="142" font-size="10.5" fill="#b7a496">wire-level method</text>
     </g>
 
     <!-- row 2: method + corrections + presentation -->
-    <g class="node" style="animation-delay:1.2s">
-      <rect x="180" y="240" width="200" height="56" rx="8" fill="#140d08" stroke="#FEAF12"/>
-      <text x="280" y="264" font-size="14" fill="#F8F5F2">equivalence-notes</text>
-      <text x="280" y="282" font-size="10.5" fill="#b7a496">same-behavior proofs</text>
-    </g>
     <g class="node" style="animation-delay:1.6s">
-      <rect x="470" y="240" width="180" height="56" rx="8" fill="#140d08" stroke="#FEAF12"/>
-      <text x="560" y="264" font-size="14" fill="#F8F5F2">retractions</text>
-      <text x="560" y="282" font-size="10.5" fill="#b7a496">corrections ledger</text>
+      <rect x="50" y="240" width="210" height="56" rx="8" fill="#140d08" stroke="#FEAF12"/>
+      <text x="155" y="264" font-size="14" fill="#F8F5F2">equivalence-notes</text>
+      <text x="155" y="282" font-size="10.5" fill="#b7a496">same-behavior proofs</text>
     </g>
     <g class="node" style="animation-delay:2s">
-      <rect x="740" y="240" width="180" height="56" rx="8" fill="#140d08" stroke="#FEAF12"/>
-      <text x="830" y="264" font-size="14" fill="#F8F5F2">svg-instruments</text>
-      <text x="830" y="282" font-size="10.5" fill="#b7a496">how we publish it</text>
+      <rect x="335" y="240" width="210" height="56" rx="8" fill="#140d08" stroke="#FEAF12"/>
+      <text x="440" y="264" font-size="14" fill="#F8F5F2">retractions</text>
+      <text x="440" y="282" font-size="10.5" fill="#b7a496">corrections ledger</text>
     </g>
     <g class="node" style="animation-delay:2.4s">
-      <rect x="960" y="240" width="160" height="56" rx="8" fill="#140d08" stroke="#FEAF12"/>
-      <text x="1040" y="264" font-size="14" fill="#F8F5F2">bench-notes</text>
-      <text x="1040" y="282" font-size="10.5" fill="#b7a496">measurement method</text>
+      <rect x="620" y="240" width="210" height="56" rx="8" fill="#140d08" stroke="#FEAF12"/>
+      <text x="725" y="264" font-size="14" fill="#F8F5F2">bench-notes</text>
+      <text x="725" y="282" font-size="10.5" fill="#b7a496">measurement method</text>
+    </g>
+    <g class="node" style="animation-delay:2.8s">
+      <rect x="905" y="240" width="210" height="56" rx="8" fill="#140d08" stroke="#FEAF12"/>
+      <text x="1010" y="264" font-size="14" fill="#F8F5F2">svg-instruments</text>
+      <text x="1010" y="282" font-size="10.5" fill="#b7a496">how we publish it</text>
     </g>
   </g>
 
