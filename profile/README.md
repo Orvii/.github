@@ -1,19 +1,19 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="hero.svg">
-  <img alt="Orvii — Open, Research, Vision, Innovation and Ideas — an independent two-person research collective" src="hero.svg">
+  <img alt="Orvii — Open, Research, Vision, Innovation &amp; Ideas — an independent two-person research collective" src="hero.svg">
 </picture>
 
 # Orvii
 
 **Open, Research, Vision, Innovation & Ideas.**
 
-Orvii is a two-person collective. We build useful, experimental, open-source software — and we publish what we learn while building it: the measurements, the dead ends, and the numbers that surprised us. Not a company, not a content channel. A lab notebook with a compiler.
+Orvii is a two-person collective. Building useful, experimental and open-source software together. We publish what we learn while building it: the measurements, the dead ends, and the numbers that surprised us. Not a company, not a content channel. A lab notebook with a compiler.
 
 The name is the method. Five letters, one feedback loop:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="pillars.svg">
-  <img alt="Orvii pillars: Open, Research, Vision, Innovation, Ideas — connected by one feedback loop" src="pillars.svg">
+  <img alt="Orvii pillars: Open, Research, Vision, Innovation &amp; Ideas — connected by one feedback loop" src="pillars.svg">
 </picture>
 
 - **Open** — source, data and failure modes in public. A result nobody can rerun is an anecdote.
