@@ -59,6 +59,7 @@ Everything we measure with is itself a deliverable. Harnesses, log schemas and a
 | [retractions](https://github.com/Orvii/retractions) | A public log of things we believed, published, and later disproved — corrections as first-class output |
 | [equivalence-notes](https://github.com/Orvii/equivalence-notes) | Behavioral-equivalence testing methodology: scenario inventories, differential oracles, observability boundaries |
 | [provider-reliability](https://github.com/Orvii/provider-reliability) | Measuring LLM inference provider reliability from the wire: error taxonomy, stream stalls, retry storms, aliasing experiments |
+| [convention-map](https://github.com/Orvii/convention-map) | Which instruction and skill files each harness loads — the interoperability surface, measured |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="research-set.svg">
