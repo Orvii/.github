@@ -60,6 +60,11 @@ Everything we measure with is itself a deliverable. Harnesses, log schemas and a
 | [equivalence-notes](https://github.com/Orvii/equivalence-notes) | Behavioral-equivalence testing methodology: scenario inventories, differential oracles, observability boundaries |
 | [provider-reliability](https://github.com/Orvii/provider-reliability) | Measuring LLM inference provider reliability from the wire: error taxonomy, stream stalls, retry storms, aliasing experiments |
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="research-set.svg">
+  <img alt="The Orvii research set: six public repos connected by shared methodology" src="research-set.svg">
+</picture>
+
 ## The research agenda
 
 Questions we are actively chasing, in rough priority order. Each one becomes a repo, a note, or a retraction — all three count as publishing.
