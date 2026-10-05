@@ -63,7 +63,7 @@ Everything we measure with is itself a deliverable. Harnesses, log schemas and a
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="research-set.svg">
-  <img alt="The Orvii research set: six public repos connected by shared methodology" src="research-set.svg">
+  <img alt="The Orvii research set: seven public repos connected by shared methodology" src="research-set.svg">
 </picture>
 
 ## The research agenda
