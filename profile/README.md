@@ -53,7 +53,7 @@ Everything we measure with is itself a deliverable. Harnesses, log schemas and a
 
 | Repo | What it is |
 |---|---|
-| [harness-atlas](https://github.com/Orvii/harness-atlas) | What AI coding harnesses promise and support — capability matrix with pinned versions and a fetched-doc citation on every cell |
+| [harness-atlas](https://github.com/Orvii/harness-atlas) | What AI coding harnesses promise and support — capability matrix with pinned versions and a fetched-doc citation on every cell · [queryable site](https://orvii.github.io/harness-atlas/) |
 | [svg-instruments](https://github.com/Orvii/svg-instruments) | Animated SVG patterns that survive the GitHub sanitizer — copy-paste kits, degradation notes, and a [live gallery](https://orvii.github.io/svg-instruments/) |
 | [bench-notes](https://github.com/Orvii/bench-notes) | Benchmark methodology notes: one failure mode per note, each with a failure example and the case where the advice inverts |
 | [retractions](https://github.com/Orvii/retractions) | A public log of things we believed, published, and later disproved — corrections as first-class output |
