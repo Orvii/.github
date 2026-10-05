@@ -1,22 +1,18 @@
 # Changelog
 
-All notable changes to this repository. Append-only; newest first.
-
-## [2026-10-05] - Profile wording aligned with approved org bio
-
-### Modified
-- `profile/hero.svg` — one-liner now reads "Building useful, experimental and open-source software together — in public, with receipts." (matches the org bio exactly); hero `aria-label` and README `img alt` use the comma form of the acronym.
-- Remote: `Orvii/.github` created, default branch `main` (master deleted).
-
-## [2026-10-05] - Orvii org profile: brand datasheet + comprehensive README
+## [2026-10-05] - Brand banner, published table, research-set diagram, CI loops
 
 ### Added
-- `profile/README.md` — comprehensive English org profile: identity, acronym pillars, ts-lto overview with equivalence-gate framing, four-item research agenda, working principles, collaboration routes.
-- `profile/hero.svg` — animated brand hero: hand-drawn "Orvii" wordmark (font-independent strokes), amber/orange orbital scope with the leaf-"o" emblem, datasheet chrome. CSS keyframes only (GitHub sanitizer safe), reduced-motion fallbacks.
-- `profile/terminal.svg` — animated research-loop terminal (hypothesize / instrument + measure / make it public / write it down).
-- `profile/pillars.svg` — O·R·V·I·I pillar rail with flowing dash line; `userSpaceOnUse` gradient so the rail renders in strict SVG renderers.
-- `CHANGELOG.md` — this file.
+- `assets/` — approved brand lockups: `banner-dark.png`, `banner-light.png` (white-backgrounded, per brand owner), `banner-light-transparent.png`, `logo.png`
+- `profile/research-set.svg` — seven-node diagram of the public research repos with methodology edges
+- `.github/workflows/npm-metrics.yml` — monthly npm snapshot committed back by CI (replaces the machine-bound systemd timer; see Orvii/retractions 005)
+- Published table in `profile/README.md` listing all seven public repos
 
-### Notes
-- Brand palette: `#FE9106` primary, `#FEAF12` highlight, `#FE7007`/`#F05F03` shadows, `#F8F5F2` text, `#0b0806` ground.
-- Verified: xmllint well-formed, rsvg-convert rasterizes all three, no `<script>` / external refs.
+### Modified
+- `profile/README.md` — brand banner above the datasheet hero; reliability agenda de-localized (research question, not local infrastructure); verbatim bio sentence and ampersand acronym (audit findings from crashed run wf_29d51455-b09, recovered from transcripts)
+
+## [2026-10-04] - Org datasheet profile
+
+### Added
+- `profile/hero.svg`, `profile/terminal.svg`, `profile/pillars.svg` — animated datasheet instruments (CSS keyframes only, sanitizer-safe, reduced-motion aware)
+- `profile/README.md` — org identity, ts-lto teaser (private, no links), research agenda, house rules
