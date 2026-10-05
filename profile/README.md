@@ -1,4 +1,9 @@
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/banner-dark.png">
+  <img alt="Orvii — Open, Research, Vision, Innovation &amp; Ideas" src="../assets/banner-light.png">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="hero.svg">
   <img alt="Orvii — Open, Research, Vision, Innovation &amp; Ideas — an independent two-person research collective" src="hero.svg">
 </picture>
