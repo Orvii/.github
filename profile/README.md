@@ -58,6 +58,7 @@ Everything we measure with is itself a deliverable. Harnesses, log schemas and a
 | [bench-notes](https://github.com/Orvii/bench-notes) | Benchmark methodology notes: one failure mode per note, each with a failure example and the case where the advice inverts |
 | [retractions](https://github.com/Orvii/retractions) | A public log of things we believed, published, and later disproved — corrections as first-class output |
 | [equivalence-notes](https://github.com/Orvii/equivalence-notes) | Behavioral-equivalence testing methodology: scenario inventories, differential oracles, observability boundaries |
+| [provider-reliability](https://github.com/Orvii/provider-reliability) | Measuring LLM inference provider reliability from the wire: error taxonomy, stream stalls, retry storms, aliasing experiments |
 
 ## The research agenda
 
