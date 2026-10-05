@@ -49,12 +49,20 @@ Status: private. It opens to the public the day the equivalence gate is green en
 
 Everything we measure with is itself a deliverable. Harnesses, log schemas and analysis notebooks graduate into their own repos as soon as they are stable enough for a stranger to run.
 
+### Published
+
+| Repo | What it is |
+|---|---|
+| [harness-atlas](https://github.com/Orvii/harness-atlas) | What AI coding harnesses promise and support — capability matrix with pinned versions and a fetched-doc citation on every cell |
+| [svg-instruments](https://github.com/Orvii/svg-instruments) | Animated SVG patterns that survive the GitHub sanitizer, with copy-paste kits and degradation notes |
+| [bench-notes](https://github.com/Orvii/bench-notes) | Benchmark methodology notes: one failure mode per note, each with a failure example and the case where the advice inverts |
+
 ## The research agenda
 
 Questions we are actively chasing, in rough priority order. Each one becomes a repo, a note, or a retraction — all three count as publishing.
 
 **1. How reliable are LLM inference providers, really?**
-Public status pages say "operational"; the wire says otherwise. We run real agent workloads through a multi-provider router and keep the receipts: per-provider error spectra (429 / 502 / 504 / silent truncation), latency distributions, retry storms, and how aliasing the same model under different names changes behavior. The goal is a reproducible reliability harness and an open dataset — aggregated and sanitized, never raw traffic.
+Public status pages say "operational"; the wire says otherwise. We are building a reproducible reliability harness for LLM inference providers: per-provider error spectra (429 / 502 / 504 / silent truncation), latency distributions under real agent workloads, retry storms, and how aliasing the same model under different names changes behavior. The deliverable is the harness plus an open dataset — aggregated and sanitized, never raw traffic.
 
 **2. What does prompt caching actually cost — and when does it silently stop working?**
 Cache-hit economics vary wildly across providers, and small request-shape changes (a stray `cache_control` block, a reordered tool definition) can collapse a 99% hit rate to single digits without any error being raised. We are mapping which request mutations kill the cache on which provider, and what that costs in tokens and money.
