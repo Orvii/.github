@@ -1,5 +1,14 @@
 # Changelog
 
+## [2026-10-06] - research set grows to nine: ts-lto-research joins the diagram
+
+### Modified
+- `profile/README.md` — Published table gains [ts-lto-research]; the private-flagship paragraph now cross-links the public prior-art survey; diagram alt text updated to nine repos.
+- `profile/research-set.svg` — redrawn as a 3×3 lattice (nine nodes, vertical ties at node centers) with a `<title>` element.
+
+### Added
+- `LICENSE` (MIT), `CITATION.cff`.
+
 ## [2026-10-05] - Brand banner, published table, research-set diagram, CI loops
 
 ### Added

@@ -45,6 +45,8 @@ The gate is the interesting part: a **behavioral-equivalence test suite**. Every
 
 Status: private. It opens to the public the day the equivalence gate is green end-to-end. This page will say so here, with a date, when it happens.
 
+The public half of this work — the prior-art survey, the gap analysis, and the open questions behind the design — is published as [ts-lto-research](https://github.com/Orvii/ts-lto-research). The optimizer itself stays private until the gate says otherwise.
+
 ### Research infrastructure
 
 Everything we measure with is itself a deliverable. Harnesses, log schemas and analysis notebooks graduate into their own repos as soon as they are stable enough for a stranger to run.
@@ -61,10 +63,11 @@ Everything we measure with is itself a deliverable. Harnesses, log schemas and a
 | [provider-reliability](https://github.com/Orvii/provider-reliability) | Measuring LLM inference provider reliability from the wire: error taxonomy, stream stalls, retry storms, aliasing experiments |
 | [convention-map](https://github.com/Orvii/convention-map) | Which instruction and skill files each harness loads — the interoperability surface, measured |
 | [context-file-evidence](https://github.com/Orvii/context-file-evidence) | Do AGENTS.md/CLAUDE.md files actually help coding agents? Four primary studies in one grid — version-pinned, arithmetic-checked, traceable to the source table |
+| [ts-lto-research](https://github.com/Orvii/ts-lto-research) | Prior art and the gap for type-aware whole-program TypeScript optimization — GCC/LLVM LTO, typed-source-to-JS compilers, cold-start competitors, and what would falsify the finding |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="research-set.svg">
-  <img alt="The Orvii research set: eight public repos connected by shared methodology" src="research-set.svg">
+  <img alt="The Orvii research set: nine public repos connected by shared methodology" src="research-set.svg">
 </picture>
 
 ## The research agenda

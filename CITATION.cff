@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you reference the Orvii profile or research set overview, please use this metadata."
+type: dataset
+title: "Orvii — organization profile and research set overview"
+authors:
+  - name: "Orvii"
+    alias: "Orvii collective"
+identifiers:
+  - type: url
+    value: "https://github.com/Orvii/.github"
+repository-code: "https://github.com/Orvii/.github"
+version: "1.3.0"
+date-released: "2026-10-06"
+notes: "Profile README and research-set diagram covering the nine public Orvii repositories."
