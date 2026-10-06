@@ -51,7 +51,7 @@
     <g class="node" style="animation-delay:1.2s">
       <rect x="60" y="210" width="320" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
       <text x="220" y="234" font-size="14" fill="#F8F5F2">convention-map</text>
-      <text x="220" y="252" font-size="10.5" fill="#b7a496">interop surface, 22 harnesses</text>
+      <text x="220" y="252" font-size="10.5" fill="#b7a496">interop surface, 27 harnesses</text>
     </g>
     <g class="node" style="animation-delay:1.6s">
       <rect x="440" y="210" width="320" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
