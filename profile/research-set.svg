@@ -34,7 +34,7 @@
     <g class="node">
       <rect x="60" y="90" width="320" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
       <text x="220" y="114" font-size="14" fill="#F8F5F2">harness-atlas</text>
-      <text x="220" y="132" font-size="10.5" fill="#b7a496">capability evidence, 25 harnesses</text>
+      <text x="220" y="132" font-size="10.5" fill="#b7a496">capability evidence, 30 harnesses</text>
     </g>
     <g class="node" style="animation-delay:.4s">
       <rect x="440" y="90" width="320" height="56" rx="8" fill="#140d08" stroke="#FE9106"/>
